@@ -6,7 +6,7 @@ A Next.js application for managing Solana SPL tokens directly from your browser.
 
 ## Project Domain
 
-- **Live Application**: (https://nft-warranty-yashk.vercel.app/](https://sol-token-manager-yashk.vercel.app/)
+- **Live Application**: [https://sol-token-manager-yashk.vercel.app/](https://sol-token-manager-yashk.vercel.app/)
 
 ## Features
 
