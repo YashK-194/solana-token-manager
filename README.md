@@ -2,7 +2,11 @@
 
 A Next.js application for managing Solana SPL tokens directly from your browser. This application allows users to connect their Solana wallet and perform various operations with SPL tokens including creating tokens, minting tokens, sending tokens, and viewing token balances.
 
-![Solana SPL Token Manager](https://solana.com/branding/new/logo/clusters/mainnet-beta/mark/external/digital/medium/png/mark-only-on-dark.png)
+![Solana SPL Token Manager](https://solana.com/src/img/branding/solanaLogoMark.svg)
+
+## Project Domain
+
+- **Live Application**: (https://nft-warranty-yashk.vercel.app/](https://sol-token-manager-yashk.vercel.app/)
 
 ## Features
 
