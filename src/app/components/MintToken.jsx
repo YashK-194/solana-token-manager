@@ -218,9 +218,14 @@ export default function MintToken() {
             <p className="text-xs text-gray-500 mb-1">Transaction Signature:</p>
             <div className="flex items-center">
               <div className="bg-gray-900 p-2 rounded overflow-x-auto max-w-full">
-                <code className="text-xs text-blue-700 break-all">
-                  {success.signature}
-                </code>
+                <a
+                  href={`https://explorer.solana.com/tx/${success.signature}?cluster=devnet`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 hover:text-blue-300"
+                >
+                  <code className="text-xs break-all">{success.signature}</code>
+                </a>
               </div>
               <button
                 onClick={() => {

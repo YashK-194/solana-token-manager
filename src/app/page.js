@@ -6,6 +6,7 @@ import CreateToken from "./components/CreateToken";
 import MintToken from "./components/MintToken";
 import SendToken from "./components/SendToken";
 import TokenList from "./components/TokenList";
+import TransactionHistory from "./components/TransactionHistory";
 import { useState } from "react";
 import { useWallet } from "@solana/wallet-adapter-react";
 
@@ -57,7 +58,12 @@ export default function Home() {
 
             {/* Content area - display selected component */}
             <div className="mb-6 bg-gray-800/30 p-6 rounded-xl shadow-md backdrop-blur-sm">
-              {activeTab === "dashboard" && <TokenList />}
+              {activeTab === "dashboard" && (
+                <>
+                  <TokenList />
+                  <TransactionHistory />
+                </>
+              )}
               {activeTab === "create" && <CreateToken />}
               {activeTab === "mint" && <MintToken />}
               {activeTab === "send" && <SendToken />}

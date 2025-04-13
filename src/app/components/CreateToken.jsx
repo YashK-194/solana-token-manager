@@ -183,7 +183,17 @@ export default function CreateToken() {
       {tokenAddress && (
         <div className="mt-4 p-3 bg-gray-900 border border-gray-700 rounded text-white">
           <p className="font-medium">Token created successfully!</p>
-          <p className="text-sm break-all">Token Address: {tokenAddress}</p>
+          <p className="text-sm break-all">
+            Token Address:{" "}
+            <a
+              href={`https://explorer.solana.com/address/${tokenAddress}?cluster=devnet`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-400 hover:text-blue-300 underline"
+            >
+              {tokenAddress}
+            </a>
+          </p>
         </div>
       )}
     </div>
