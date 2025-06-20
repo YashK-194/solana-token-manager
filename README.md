@@ -36,7 +36,7 @@ A Next.js application for managing Solana SPL tokens directly from your browser.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/solana-frontend.git
+   git clone https://github.com/YashK-194/solana-frontend.git
    cd solana-frontend
    ```
 
