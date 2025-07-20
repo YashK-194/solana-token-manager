@@ -21,22 +21,22 @@ A Next.js application for managing Solana SPL tokens directly from your browser.
 Here are some screenshots showcasing the application's interface:
 
 ![Solana Token Manager Interface 1](SolTokenManager1.png)
-*Main dashboard showing wallet connection and token management interface*
+_Main dashboard showing wallet connection and token management interface_
 
 ![Solana Token Manager Interface 2](SolTokenManager2.png)
-*Token creation form with custom parameters*
+_Token creation form with custom parameters_
 
 ![Solana Token Manager Interface 3](SolTokenManager3.png)
-*Token minting interface for existing tokens*
+_Token minting interface for existing tokens_
 
 ![Solana Token Manager Interface 4](SolTokenManager4.png)
-*Token transfer interface for sending tokens to other addresses*
+_Token transfer interface for sending tokens to other addresses_
 
 ![Solana Token Manager Interface 5](SolTokenManager5.png)
-*Token balance and portfolio view*
+_Token balance and portfolio view_
 
 ![Solana Token Manager Interface 6](SolTokenManager6.png)
-*Transaction history and token list display*
+_Transaction history and token list display_
 
 ## Tech Stack
 
